@@ -1,0 +1,325 @@
+monitor;899;201961;eletronico
+headset;199;201962;eletronico
+webcam;139;201963;eletronico
+impressora;499;201964;eletronico
+pendrive 64gb;39;201965;eletronico
+ssd 480gb;229;201966;eletronico
+cadeira gamer;799;201967;objeto
+mousepad;29;201968;objeto
+roteador;159;201969;eletronico
+caixa de som;89;201970;eletronico
+teclado mecanico;249;201971;eletronico
+mouse sem fio;79;201972;eletronico
+gabinete mid tower;299;201973;eletronico
+fonte 500w;259;201974;eletronico
+cooler rgb;59;201975;eletronico
+hub usb 3.0;49;201976;eletronico
+carregador portátil;119;201977;eletronico
+smartwatch;349;201978;eletronico
+suporte de celular;29;201979;acessorio
+cabo hdmi;25;201980;eletronico
+cabo displayport;39;201981;eletronico
+filtro de linha;35;201982;eletronico
+estabilizador;199;201983;eletronico
+extensão eletrica;22;201984;eletronico
+teclado numerico;59;201985;periferico
+mouse vertical;129;201986;periferico
+capa notebook 15;79;201987;acessorio
+tripe;89;201988;objeto
+lampada smart;45;201989;eletronico
+notebook stand;69;201990;objeto
+hd externo 1tb;349;201991;eletronico
+hd externo 2tb;499;201992;eletronico
+ssd nvme 1tb;399;201993;eletronico
+webcam full hd;189;201994;eletronico
+placa de video 4gb;799;201995;eletronico
+placa mae b450;599;201996;eletronico
+processador i3;499;201997;eletronico
+processador i5;899;201998;eletronico
+memoria 8gb ddr4;129;201999;eletronico
+memoria 16gb ddr4;219;202000;eletronico
+switch hdmi;39;202001;eletronico
+adaptador usb wifi;59;202002;eletronico
+cartão sd 128gb;79;202003;eletronico
+carregador tipo c;39;202004;eletronico
+fone bluetooth;99;202005;eletronico
+suporte headset;34;202006;objeto
+mouse gamer rgb;149;202007;periferico
+teclado sem fio;99;202008;eletronico
+hub tipo c;119;202009;eletronico
+controle xbox;399;202010;periferico
+controle ps4;349;202011;periferico
+cadeira escritorio;499;202012;objeto
+porta copo mesa;19;202013;objeto
+limpador tela;15;202014;acessorio
+tapete antiderrapante;25;202015;objeto
+fonte 600w;329;202016;eletronico
+fonte 700w;399;202017;eletronico
+heatsink nvme;29;202018;acessorio
+suporte monitor;89;202019;objeto
+adaptador hdmi vga;29;202020;eletronico
+mini teclado;129;202021;periferico
+luva gamer;35;202022;acessorio
+cooler notebook;89;202023;eletronico
+limpador ar;39;202024;acessorio
+organizador cabos;25;202025;acessorio
+caixa organizadora;39;202026;objeto
+suporte cpu;49;202027;objeto
+modem adsl;119;202028;eletronico
+switch 8 portas;149;202029;eletronico
+switch 16 portas;279;202030;eletronico
+microfone condensador;199;202031;periferico
+braço articulado mic;89;202032;acessorio
+pop filter;39;202033;acessorio
+mesa digitalizadora;299;202034;eletronico
+scanner portátil;399;202035;eletronico
+cabo sata;15;202036;eletronico
+kit limpeza pc;29;202037;acessorio
+pendrive 128gb;59;202038;eletronico
+adaptador sd usb;19;202039;eletronico
+headset bluetooth;149;202040;eletronico
+fone intra auricular;39;202041;eletronico
+relógio digital;29;202042;objeto
+despertador smart;69;202043;eletronico
+porta lápis;15;202044;objeto
+cadeira dobrável;79;202045;objeto
+ring light;99;202046;eletronico
+cabo p2;12;202047;eletronico
+cabo p3;15;202048;eletronico
+carregador mag;199;202049;eletronico
+protetor de tela;19;202050;acessorio
+teclado rgb;199;202051;periferico
+mouse ultra leve;179;202052;periferico
+adaptador bluetooth;29;202053;eletronico
+camera de seguranca;199;202054;eletronico
+sensor de porta;49;202055;eletronico
+smart plug;89;202056;eletronico
+extensor wifi;149;202057;eletronico
+cilindro ar comprimido;34;202058;acessorio
+caixa acrilica;29;202059;objeto
+prateleira metal;99;202060;objeto
+tripé flexivel;35;202061;acessorio
+power bank 20k;179;202062;eletronico
+power bank 10k;129;202063;eletronico
+mini ventilador usb;29;202064;eletronico
+hub usb 2.0;25;202065;eletronico
+fone estudio;299;202066;eletronico
+teclado ergonômico;229;202067;periferico
+organizador gaveta;39;202068;objeto
+apontador eletrico;59;202069;eletronico
+notebook cooler stand;119;202070;eletronico
+airfryer 5l;399;202071;eletronico
+liquidificador;129;202072;eletronico
+ventilador 40cm;159;202073;eletronico
+cafeteira eletrica;119;202074;eletronico
+forno eletrico;349;202075;eletronico
+sanduicheira;89;202076;eletronico
+batedeira;199;202077;eletronico
+ferro de passar;99;202078;eletronico
+aspirador de po;249;202079;eletronico
+chaleira eletrica;79;202080;eletronico
+umidificador de ar;149;202081;eletronico
+ventilador de mesa;129;202082;eletronico
+ventilador coluna;199;202083;eletronico
+desumidificador;399;202084;eletronico
+cortador de cabelo;89;202085;eletronico
+barbeador eletrico;129;202086;eletronico
+escova secadora;199;202087;eletronico
+secador de cabelo;159;202088;eletronico
+chapinha;139;202089;eletronico
+máquina de lavar roupas;1999;202090;eletronico
+microondas 20l;499;202091;eletronico
+microondas 30l;699;202092;eletronico
+geladeira frostfree;2499;202093;eletronico
+frigobar 120l;899;202094;eletronico
+bebedouro eletrico;349;202095;eletronico
+purificador agua;499;202096;eletronico
+forno microondas inox;749;202097;eletronico
+cooktop eletrico;399;202098;eletronico
+fogao 4 bocas;799;202099;eletronico
+fogao 5 bocas;1199;202100;eletronico
+exaustor cozinha;299;202101;eletronico
+climatizador;299;202102;eletronico
+máquina de costura;899;202103;eletronico
+balança digital;49;202104;eletronico
+luminaria escritorio;59;202105;eletronico
+lanterna tática;79;202106;eletronico
+cortina blackout;99;202107;objeto
+colchao solteiro;299;202108;objeto
+colchao casal;499;202109;objeto
+travesseiro de espuma;39;202110;objeto
+travesseiro nasa;79;202111;objeto
+cobertor casal;119;202112;objeto
+lençol queen;89;202113;objeto
+edredom solteiro;129;202114;objeto
+almofada decorativa;29;202115;objeto
+tapete sala;149;202116;objeto
+tapete corredor;99;202117;objeto
+cortina de banheiro;29;202118;objeto
+suporte papel higienico;19;202119;objeto
+lixeira plastica;25;202120;objeto
+lixeira inox;79;202121;objeto
+cabide madeira;5;202122;objeto
+cabide plastico;3;202123;objeto
+armario pequeno;249;202124;objeto
+mesa de centro;199;202125;objeto
+rack sala;299;202126;objeto
+guarda roupa 6 portas;899;202127;objeto
+criado mudo;129;202128;objeto
+mesa dobrável;109;202129;objeto
+cadeira plastica;29;202130;objeto
+cadeira de madeira;119;202131;objeto
+banqueta alta;89;202132;objeto
+estante metálica;159;202133;objeto
+paneleiro;69;202134;objeto
+fruteira cozinha;89;202135;objeto
+prato porcelana;12;202136;objeto
+copo vidro;8;202137;objeto
+taça vidro;15;202138;objeto
+jogo de panelas;249;202139;objeto
+espremedor de frutas;39;202140;objeto
+ralador inox;19;202141;objeto
+coador café;12;202142;objeto
+pote hermético;10;202143;objeto
+garrafa térmica;59;202144;objeto
+vassoura piaçava;17;202145;objeto
+rodo aluminio;22;202146;objeto
+aspirador pó manual;129;202147;eletronico
+varal de chão;45;202148;objeto
+varal de teto;69;202149;objeto
+balde com tampa;15;202150;objeto
+rodo de pia;8;202151;objeto
+escova multiuso;12;202152;objeto
+kit facas cozinha;49;202153;objeto
+panela pressão;119;202154;objeto
+prato fundo;10;202155;objeto
+caneca cerâmica;15;202156;objeto
+bowl plastico;9;202157;objeto
+pano de prato;5;202158;objeto
+jogo americano;19;202159;objeto
+toalha banho;39;202160;objeto
+toalha rosto;15;202161;objeto
+caixa térmica;89;202162;objeto
+cadeado aço;19;202163;objeto
+alicate universal;29;202164;objeto
+chave philips;9;202165;objeto
+kit chaves;39;202166;objeto
+martelo médio;29;202167;objeto
+trena 5m;19;202168;objeto
+luva de trabalho;12;202169;objeto
+óculos de proteção;22;202170;objeto
+máscara poeira;7;202171;objeto
+furadeira;199;202172;eletronico
+parafusadeira;149;202173;eletronico
+serra circular;349;202174;eletronico
+grampeador manual;39;202175;objeto
+cola quente;19;202176;eletronico
+pistola cola quente;39;202177;eletronico
+grampos para grampeador;12;202178;objeto
+carrinho ferramentas;179;202179;objeto
+maleta ferramentas;129;202180;objeto
+kit parafusos;15;202181;objeto
+chave inglesa;25;202182;objeto
+trena laser;199;202183;eletronico
+medidor umidade;149;202184;eletronico
+multimetro digital;99;202185;eletronico
+lanterna cabeça;39;202186;eletronico
+lampiao camping;49;202187;eletronico
+cadeira camping;89;202188;objeto
+barraca 2 pessoas;199;202189;objeto
+barraca 4 pessoas;299;202190;objeto
+mochila trilha;159;202191;objeto
+cantilever;12;202192;objeto
+bussola;25;202193;objeto
+saco dormir;159;202194;objeto
+isolante térmico;79;202195;objeto
+cantil aluminio;29;202196;objeto
+apito sobrevivencia;10;202197;objeto
+canivete;39;202198;objeto
+kit primeiros socorros;49;202199;objeto
+caixa pesca;89;202200;objeto
+vara pesca;129;202201;objeto
+linha pesca;12;202202;objeto
+anzol kit;15;202203;objeto
+lanterna náutica;79;202204;eletronico
+colete salva vidas;159;202205;objeto
+boia inflavel;49;202206;objeto
+oculos natacao;29;202207;objeto
+touca silicone;15;202208;objeto
+prancha bodyboard;199;202209;objeto
+skate street;249;202210;objeto
+patins inline;299;202211;objeto
+bola futebol;59;202212;objeto
+bola basquete;79;202213;objeto
+bola vôlei;69;202214;objeto
+rede futebol;89;202215;objeto
+cone treino;8;202216;objeto
+corda pular;15;202217;objeto
+halter 3kg;39;202218;objeto
+halter 5kg;59;202219;objeto
+halter 10kg;89;202220;objeto
+colchonete academia;79;202221;objeto
+faixa elastica;19;202222;objeto
+rolo massagem;49;202223;objeto
+squeeze esportivo;19;202224;objeto
+shorts corrida;39;202225;objeto
+camiseta dry fit;49;202226;objeto
+mochila escolar;69;202227;objeto
+caderno 10 materias;22;202228;objeto
+lapiseira 0.7;9;202229;objeto
+borracha branca;3;202230;objeto
+apontador duplo;5;202231;objeto
+marca texto;5;202232;objeto
+caneta gel;4;202233;objeto
+caneta azul;2;202234;objeto
+caneta preta;2;202235;objeto
+caneta vermelha;2;202236;objeto
+estojo escolar;19;202237;objeto
+cola bastao;5;202238;objeto
+tesoura escolar;8;202239;objeto
+regua 30cm;6;202240;objeto
+agenda 2025;29;202241;objeto
+plástico adesivo;12;202242;objeto
+pincel quadro branco;7;202243;objeto
+apagador quadro;12;202244;objeto
+pasta elástica;6;202245;objeto
+pasta catálogo;12;202246;objeto
+cartolina branca;3;202247;objeto
+cartolina colorida;3;202248;objeto
+folha sulfite 500;22;202249;objeto
+folha sulfite 100;8;202250;objeto
+mouse escolar;29;202251;eletronico
+teclado escolar;39;202252;eletronico
+tablet infantil;299;202253;eletronico
+fone infantil;49;202254;eletronico
+kit pintura infantil;19;202255;objeto
+bloco desenho;12;202256;objeto
+tinta guache;15;202257;objeto
+pincel fino;6;202258;objeto
+pincel largo;8;202259;objeto
+paleta pintura;10;202260;objeto
+cola colorida;5;202261;objeto
+massa modelar;12;202262;objeto
+barbante;6;202263;objeto
+cordão encerado;9;202264;objeto
+giz cera;8;202265;objeto
+dominó madeira;29;202266;objeto
+xadrez madeira;49;202267;objeto
+baralho plastificado;12;202268;objeto
+quebra cabeça 100 peças;29;202269;objeto
+quebra cabeça 500 peças;59;202270;objeto
+lego pequeno;39;202271;objeto
+lego medio;79;202272;objeto
+bola de gude;5;202273;objeto
+pião madeira;7;202274;objeto
+carrinho fricção;15;202275;objeto
+boneco articulado;29;202276;objeto
+boneca pequena;25;202277;objeto
+bola de borracha;12;202278;objeto
+corda elástica;9;202279;objeto
+kit slime;19;202280;objeto
+playmat infantil;89;202281;objeto
+kit cozinha infantil;39;202282;objeto
+livro infantil;25;202283;objeto
+fantasia infantil;89;202284;objeto
+mascara fantasia;12;202285;objeto

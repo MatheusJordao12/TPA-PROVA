@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Produtos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="form">
+        <h1>Cadastro de Produtos</h1>
+
+        <input type="text" id="produto" placeholder="Produto"><br><br>
+        <input type="number" id="preco" placeholder="Preço"><br><br>
+        <input type="text" id="identificacao" placeholder="Identificação"><br><br>
+        <input type="text" id="categoria" placeholder="Categoria"><br><br>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <h2>Produtos cadastrados</h2>
+    <div id="tabela"></div>
+
+
+<script>
+    // Carrega a tabela ao entrar na página
+    atualizarTabela();
+
+    document.getElementById("form").addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const produto = {
+            produto: document.getElementById("produto").value,
+            preco: document.getElementById("preco").value,
+            identificacao: document.getElementById("identificacao").value,
+            categoria: document.getElementById("categoria").value
+        };
+
+        let lista = JSON.parse(localStorage.getItem("produtos")) || [];
+        lista.push(produto);
+        localStorage.setItem("produtos", JSON.stringify(lista));
+
+        location.reload();
+
+
+        // Limpa os inputs
+        document.getElementById("produto").value = "";
+        document.getElementById("preco").value = "";
+        document.getElementById("identificacao").value = "";
+        document.getElementById("categoria").value = "";
+
+        atualizarTabela();
+    });
+
+    function atualizarTabela() {
+        const dados = JSON.parse(localStorage.getItem("produtos")) || [];
+        let html = "";
+
+        if (dados.length > 0) {
+            html += "<table>";
+            html += `
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Identificação</th>
+                    <th>Categoria</th>
+                </tr>
+            `;
+
+            dados.forEach(item => {
+                html += `
+                    <tr>
+                        <td>${item.produto}</td>
+                        <td>${item.preco}</td>
+                        <td>${item.identificacao}</td>
+                        <td>${item.categoria}</td>
+                    </tr>
+                `;
+            });
+
+            html += "</table>";
+        } else {
+            html = "<p>Nenhum produto cadastrado ainda.</p>";
+        }
+
+        document.getElementById("tabela").innerHTML = html;
+    }
+
+    function limparTudo() {
+    if (confirm("Tem certeza que deseja apagar tudo?")) {
+        localStorage.removeItem("produtos");
+        atualizarTabela();
+    }
+}
+
+</script>
+
+<button class="botao" onclick="limparTudo()">Limpar tudo</button>
+
+</body>
+</html>

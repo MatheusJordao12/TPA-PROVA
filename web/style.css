@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', 'Sans-Serif';
+}
+
+form {
+    text-align: center;
+    background-color: rgba(5, 5, 5, 0.062);
+    width: 400px;
+    margin: 15px auto;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+button {
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: rgb(6, 97, 158);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+form input{
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabela {
+    margin: 20px;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #eee;
+}
+
+.botao {
+    margin: 20px;
+}
