@@ -23,73 +23,91 @@
 
 
 <script>
-    // Carrega a tabela ao entrar na página
+// Assim que a página carregar, atualiza a tabela com os dados já salvos
+atualizarTabela();
+
+// Captura o evento de envio do formulário
+document.getElementById("form").addEventListener("submit", (e) => {
+    e.preventDefault(); // Impede o recarregamento padrão da página
+
+    // Cria um objeto contendo os valores dos inputs do formulário
+    const produto = {
+        produto: document.getElementById("produto").value,
+        preco: document.getElementById("preco").value,
+        identificacao: document.getElementById("identificacao").value,
+        categoria: document.getElementById("categoria").value
+    };
+
+    // Obtém a lista de produtos já armazenada no localStorage (ou cria lista vazia)
+    let lista = JSON.parse(localStorage.getItem("produtos")) || [];
+
+    // Adiciona o novo produto na lista
+    lista.push(produto);
+
+    // Salva a lista atualizada no localStorage convertida para JSON
+    localStorage.setItem("produtos", JSON.stringify(lista));
+
+    // Recarrega a página para atualizar a tabela visualmente
+    location.reload();
+
+    // Limpa os campos do formulário após salvar
+    document.getElementById("produto").value = "";
+    document.getElementById("preco").value = "";
+    document.getElementById("identificacao").value = "";
+    document.getElementById("categoria").value = "";
+
+    // Atualiza a tabela exibida na tela
     atualizarTabela();
+});
 
-    document.getElementById("form").addEventListener("submit", (e) => {
-        e.preventDefault();
+// Função responsável por montar a tabela na tela usando os dados do localStorage
+function atualizarTabela() {
+    // Pega os produtos armazenados (ou cria lista vazia se não tiver nada)
+    const dados = JSON.parse(localStorage.getItem("produtos")) || [];
+    let html = "";
 
-        const produto = {
-            produto: document.getElementById("produto").value,
-            preco: document.getElementById("preco").value,
-            identificacao: document.getElementById("identificacao").value,
-            categoria: document.getElementById("categoria").value
-        };
+    // Se existir pelo menos 1 produto, monta a tabela HTML
+    if (dados.length > 0) {
+        html += "<table>";
 
-        let lista = JSON.parse(localStorage.getItem("produtos")) || [];
-        lista.push(produto);
-        localStorage.setItem("produtos", JSON.stringify(lista));
+        // Cabeçalho da tabela
+        html += `
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Identificação</th>
+                <th>Categoria</th>
+            </tr>
+        `;
 
-        location.reload();
-
-
-        // Limpa os inputs
-        document.getElementById("produto").value = "";
-        document.getElementById("preco").value = "";
-        document.getElementById("identificacao").value = "";
-        document.getElementById("categoria").value = "";
-
-        atualizarTabela();
-    });
-
-    function atualizarTabela() {
-        const dados = JSON.parse(localStorage.getItem("produtos")) || [];
-        let html = "";
-
-        if (dados.length > 0) {
-            html += "<table>";
+        // Cria uma linha <tr> para cada item salvo
+        dados.forEach(item => {
             html += `
                 <tr>
-                    <th>Produto</th>
-                    <th>Preço</th>
-                    <th>Identificação</th>
-                    <th>Categoria</th>
+                    <td>${item.produto}</td>
+                    <td>${item.preco}</td>
+                    <td>${item.identificacao}</td>
+                    <td>${item.categoria}</td>
                 </tr>
             `;
+        });
 
-            dados.forEach(item => {
-                html += `
-                    <tr>
-                        <td>${item.produto}</td>
-                        <td>${item.preco}</td>
-                        <td>${item.identificacao}</td>
-                        <td>${item.categoria}</td>
-                    </tr>
-                `;
-            });
-
-            html += "</table>";
-        } else {
-            html = "<p>Nenhum produto cadastrado ainda.</p>";
-        }
-
-        document.getElementById("tabela").innerHTML = html;
+        html += "</table>";
+    } else {
+        // Caso não exista nenhum produto cadastrado
+        html = "<p>Nenhum produto cadastrado ainda.</p>";
     }
 
-    function limparTudo() {
+    // Insere a tabela (ou a mensagem) no elemento com id="tabela"
+    document.getElementById("tabela").innerHTML = html;
+}
+
+// Função para apagar todos os produtos cadastrados
+function limparTudo() {
+    // Confirmação antes de excluir
     if (confirm("Tem certeza que deseja apagar tudo?")) {
-        localStorage.removeItem("produtos");
-        atualizarTabela();
+        localStorage.removeItem("produtos"); // Remove os dados salvos
+        atualizarTabela(); // Atualiza a tela após apagar
     }
 }
 
